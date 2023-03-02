@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday Fela!</title>
+  <style>
+    body {
+      background-image: url(fela.webp);
+      background-size: cover;
+    }
+    .container {
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      color: #020202;
+      font-family: Arial, sans-serif;
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+    #cat {
+      width: 200px;
+      cursor: pointer;
+    }
+    #gift {
+      display: none;
+      margin-top: 50px;
+      margin-right: 100px;
+    }
+    .link{
+      color: #ffffff;
+      font-size: 60px;
+      margin-bottom: 50px;
+    }
+    .enjoy
+    {
+      color: #ffffff;
+      font-size: 45px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1> <i>Happy Birthday C.Lalruatfel</i> </h1>
+    <img id="cat" src="clickme.png" alt="A cute little cat">
+    <div id="gift">
+      <p class="enjoy"><i>Enjoy!</i></p>
+      <img src="bday2.gif" alt="A birthday gift" width="500px">
+      <a href="https://youtu.be/_z-1fTlSDF0" target="_blank" class="link">
+        <i>
+          Click here
+        </i>
+      </a>
+    </div>
+  </div>
+  <audio>
+    id="gift" src="https://youtu.be/_z-1fTlSDF0"
+  </audio>
+
+  <script>
+    const catImg = document.getElementById("cat");
+    const giftDiv = document.getElementById("gift");
+    
+    catImg.addEventListener("click", function() {
+      giftDiv.style.display = "block";
+    });
+  </script>
+</body>
+</html>
